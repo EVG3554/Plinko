@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Играй в Plinko и выигрывай!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1d1d2c, #3a3a5d);
+      color: #fff;
+      text-align: center;
+    }
+    .hero {
+      padding: 100px 20px;
+      background: url('https://via.placeholder.com/1920x1080') no-repeat center center / cover;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .hero a {
+      text-decoration: none;
+      background: #ff6f3d;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    .features {
+      padding: 50px 20px;
+    }
+    .features h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .features .feature {
+      margin-bottom: 20px;
+    }
+    .cta {
+      padding: 50px 20px;
+      background: #29294f;
+    }
+    .cta h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .cta a {
+      text-decoration: none;
+      background: #ff6f3d;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    .footer {
+      padding: 20px;
+      background: #1d1d2c;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Испытай удачу в Plinko!</h1>
+    <p>Захватывающая игра с реальными шансами на крупный выигрыш.</p>
+    <a href="#play">Играть сейчас</a>
+  </div>
+
+  <!-- Features Section -->
+  <div class="features">
+    <h2>Почему выбирают Plinko?</h2>
+    <div class="feature">
+      <p>🎯 Простые правила – начни играть за секунды!</p>
+    </div>
+    <div class="feature">
+      <p>💰 Возможность крупных выигрышей с минимальными ставками.</p>
+    </div>
+    <div class="feature">
+      <p>⚡️ Мгновенные выплаты прямо на твой счет.</p>
+    </div>
+  </div>
+
+  <!-- Call to Action Section -->
+  <div class="cta">
+    <h2>Готов начать выигрывать?</h2>
+    <a href="#play">Играй и побеждай!</a>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2024 Plinko. Все права защищены.</p>
+  </div>
+
+</body>
+</html>
